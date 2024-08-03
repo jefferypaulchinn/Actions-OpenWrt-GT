@@ -28,6 +28,6 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                          
 sed -i 's/PATCHVER:=6.1/PATCHVER:=6.6/g' target/linux/x86/Makefile                                                # 修改内核为6.6
 
 # 修改默认主题为infinityfreedom
-sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom-ng/g' feeds/luci/collections/luci/Makefile               
-sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom-ng/g' feeds/luci/collections/luci-nginx/Makefile
-sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom-ng/g' feeds/luci/collections/luci-ssl-nginx/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collections/luci/Makefile               
+sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collections/luci-nginx/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collections/luci-ssl-nginx/Makefile
